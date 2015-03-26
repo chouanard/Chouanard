@@ -1,0 +1,44 @@
+﻿/*##########################################################
+
+Title:      Site.css
+Author:     Mark Chouanard
+            Chouanard Creative
+
+###########################################################*/
+
+body { background-color: black; text-align: center; font-family: "proxima-nova",sans-serif; font-size: 14px; color: grey;  }
+
+#social-header { height: 33px; display: block; margin-left: auto; margin-right: auto; margin-top: -20px; }
+#social-header .linkedin, #social-header .facebook, #social-header .twitter, #social-header .rss, #social-header .git,  #social-header .mac { display:inline-block; width:33px; height:33px; }
+#social-header .linkedin { background:url("../Images/blog/icon_linkedin_bw.png") 0 0 no-repeat; }
+#social-header .linkedin:hover { background:url("../Images/blog/icon_linkedin.png") 0 0 no-repeat; }
+#social-header .twitter { background:url("../Images/blog/icon_twitter_bw.png") 0 0 no-repeat; }
+#social-header .twitter:hover { background:url("../Images/blog/icon_twitter.png") 0 0 no-repeat; }
+#social-header .rss { background:url("../Images/blog/icon_rss_bw.png") 0 0 no-repeat; }
+#social-header .rss:hover { background:url("../Images/blog/icon_rss.png") 0 0 no-repeat; }
+#social-header .git { background:url("../Images/blog/icon_git_bw.png") 0 0 no-repeat; }
+#social-header .git:hover { background:url("../Images/blog/icon_git.png") 0 0 no-repeat; }
+#social-header .mac { background:url("../Images/blog/icon_blog_bw.png") 0 0 no-repeat; }
+#social-header .mac:hover { background:url("../Images/blog/icon_blog.png") 0 0 no-repeat; }
+
+.chouanardLogo { max-width: 700px; width: 100%; }
+
+a.textlink { font-family: Arial; Font-size: 14px; text-decoration: none; line-height: 32px; }
+a.textlink:link { color: #969696; }
+a.textlink:visited { color: #969696; }
+a.textlink:active { color: #969696; }
+a.textlink:hover { color: #ccff66; }
+
+
+/* LEGACY */
+
+/*.myoutercontainer { position: absolute; top: 40%; width: 100%; min-width: 280px;}
+.myinnercontainer { position: relative; width: 100%;  }
+.myinnercontainerBand { position: relative; width: 100%; height: 90px; vertical-align: middle; background-image: url(../Images/Legacy/bg_band.png); }
+.body_text { font-family: Arial; Font-size: 18px; font-weight: normal; font-style: normal; color: #000000; text-decoration: none; vertical-align: middle; background: none; }
+.socialMenu { margin: 0 42px 0 0; }
+.socialMenu li { display: inline; position: relative; margin: 0 0 0 0; }*/
+
+
+
+

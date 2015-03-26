@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="VtYlHd8HQrwMrJK6sTYiFc2vkBCdC7ObqjEbYZyH00Q" />
+    <link href="../Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" src="http://use.typekit.com/oym8tjx.js"></script>
+    <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/app")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
